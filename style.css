@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url(imageg/cricket_background.jpg);
+    background-image: url(image/cricket_background.jpg);
     background-size: cover;
     background-attachment: fixed; 
     display: grid;
@@ -72,12 +72,15 @@ img{
   .container form p{
     font-size: 20px;
     color: white;
+
   }
 
   .container form input[type="submit"]{
     font-size: 25px;
-    background-color: black;
+    background-color: mediumturquoise;
     border-radius: 20px;
     width: 200px;
-    color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
     }
