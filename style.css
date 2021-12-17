@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body{
     padding: 0;
     margin: 0;
@@ -58,7 +60,11 @@ img{
   .container h1{
       padding-top: 30px;
       text-align: center;
-      color: blue;
+      color: yellow;
+      text-transform: capitalize;
+      font-family: 'Permanent Marker', cursive;
+      text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
   }
 
   .container form input[type = "text"], input[type = "password"]{
@@ -68,12 +74,14 @@ img{
     outline: none;
     height: 20px;
     font-size: 16px;
-
+    color: black;
+    font-family: 'Bebas Neue', cursive;
   }
 
   .container form p{
     font-size: 20px;
     color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 
   }
 
@@ -83,29 +91,34 @@ img{
     font-weight: bold;
   }
 
-  .container form input[type="submit"]{
+button{
     margin: 20px;
     margin-left: auto;
-    width: 200px;
     font-size: 25px;
     height: 40px;
     background-color: #fb2525;
     border-radius: 20px;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     justify-content: center;
+    border: none;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
     }
 
   .container a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   }
 
   .container a:hover{
-    color: yellow;
+    color: greenyellow;
+    text-decoration: underline;
   }
 
-  .container form input[type="submit"]:hover{
+  .container button:hover{
     cursor: pointer;
     background: #ffc107;
   }

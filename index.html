@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
+    <script src="form.js"></script>
     <title>Login Form Design</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 <body>
 
@@ -13,11 +17,12 @@
         <img src="image/Rantharu.png" alt="RANTHARU" class="avatar">
         <h1>Login Here</h1>
         <form action="post">
-            <p>Username</p>
-            <input type="text" placeholder="Enter user name here">
+            <p>Email</p>
+            <input type="text" placeholder="Enter user email here" id="email">
             <p>Password</p>
-            <input type="password" placeholder="Enter password here"><br>
-            <input type="submit" value="Login"><br>
+            <input type="password" placeholder="Enter password here" id="password"><br>
+            <button onclick="signUp()" id="signIn">SignIn</button>
+            <button onclick="signIn()" id="signUp">SignUp</button><br>
             <a href="#">Lost your password?</a><br>
             <a href="#">Don't have an account?</a>
         </form>
